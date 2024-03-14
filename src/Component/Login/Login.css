@@ -1,0 +1,55 @@
+/* Login.css */
+
+.login-container {
+    background-image: url('C:\Users\DT-23-002\Desktop\react\SohamGeni\src\assets\geniLogin.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px; 
+  }
+  
+  .login-header {
+    font-size: 24px; /* Increase font size */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px; 
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px; /* Move button to the right */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+
+  
